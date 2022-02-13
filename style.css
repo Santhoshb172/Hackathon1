@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.img-container {
+
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+.info {
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+
+}
+
+.card-part {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    width: fit-content;
+
+}
+
+.pokemon {
+
+    border-radius: 25px;
+    box-shadow: 0 3px 15px rgba(39, 38, 38, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 250 ms;
+    width: 450px;
+    background: linear-gradient(0deg,
+            rgb(127, 144, 145) 0%,
+            rgb(235, 157, 224) 100%);
+
+
+
+}
+
+body {
+
+    background: -webkit-linear-gradient(to left, #f17b1b8a, #8b8a8bdc);
+    background: linear-gradient(to left, #e672148a, #8b8a8bdc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Shadows into light';
+    margin: auto;
+    width: 50px;
+
+}
+
+.pokemon:hover {
+    transform: translateX(-10px);
+    background: rgb(103, 112, 86);
+}
+
+#pokemon_container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img-container:hover {
+    transform: scale(1.9);
+}
